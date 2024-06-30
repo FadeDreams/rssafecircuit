@@ -1,0 +1,21 @@
+[package]
+name = "rssafecircuit"
+version = "0.1.0"
+authors = ["fadedreams7 <fadedreams7@email.com>"]
+edition = "2021"
+
+keywords = ["resilience", "fault tolerance", "circuit breaker"]
+categories = ["no-std"]
+license-file = "LICENSE"
+documentation = "https://github.com/fadedreams/rssafecircuit"
+homepage = "https://github.com/fadedreams/rssafecircuit"
+repository = "https://github.com/fadedreams/rssafecircuit"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+rand = "0.8"
+
+[lib]
+name = "rssafecircuit"
+path = "src/lib.rs"
+
