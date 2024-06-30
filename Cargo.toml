@@ -3,10 +3,10 @@ name = "rssafecircuit"
 version = "0.1.0"
 authors = ["fadedreams7 <fadedreams7@email.com>"]
 edition = "2021"
-
 keywords = ["resilience", "fault tolerance", "circuit breaker"]
 categories = ["no-std"]
 license-file = "LICENSE"
+description = "This Rust library implements a Circuit Breaker pattern with asynchronous support using Tokio, managing failure states and recovery strategies."
 documentation = "https://github.com/fadedreams/rssafecircuit"
 homepage = "https://github.com/fadedreams/rssafecircuit"
 repository = "https://github.com/fadedreams/rssafecircuit"
